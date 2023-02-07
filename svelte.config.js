@@ -9,11 +9,13 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		appDir: 'app',
 		prerender: {
 			default: true,
 		},
 		trailingSlash: 'always',
+		paths: {
+			base: '/repo_name'
+		}
 	}
 };
 
