@@ -14,7 +14,7 @@ const config = {
 		},
 		trailingSlash: 'always',
 		paths: {
-			base: '/repo_name'
+			base: '/sveltekit-test'
 		}
 	}
 };
